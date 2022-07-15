@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    -name: Build the solution
+    name: Build the solution
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v3
