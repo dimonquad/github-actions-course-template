@@ -33,6 +33,7 @@ jobs:
   
   #Second Job in same workflow file
   Testing_Job:
+    name: Testing previously built solution
     runs-on: ubuntu-latest
     #Linking to previous job result 
     needs: Build_And_Deploy_Job
